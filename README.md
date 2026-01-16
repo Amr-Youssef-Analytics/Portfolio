@@ -1,53 +1,105 @@
-# Portfolio
+🏨 Hotel Sales Performance Dashboard (Power BI)
 
-📊 Sales & Companies Performance Dashboard (2025)
-📌 Project Overview
+📌 Overview
 
+This project is a Power BI dashboard designed to analyze hotel sales performance, key accounts, and customer sustainability.
 
-This dashboard visualizes the annual performance of a Sales Professional and his managed companies across the year 2025 — highlighting growth, trends, market segmentation, and key business insights that support strategic decision-making.
+It provides actionable insights into:
 
+Room & F&B revenue
 
-🛠 Tools & Technologies Used
-Power BI
-Power Query
-DAX (Data Analysis Expressions)
-Excel
-Data Modeling
+Key account contribution (Pareto 80/20)
 
+Market segment performance
 
+Customer retention and sustainability
 
-📈 Key Analyses & Metrics
+Core hotel KPIs (ADR, RevPAR, Room Nights)
 
-Revenue Performance (Rooms + F&B) for 2025
-Market Segment Analysis
-Pareto 80/20 Analysis
-Company Retention & Sustainability
-KPI Cards:
-ADR
-RevPAR
+Note: All company names and branding are fictional and used for portfolio purposes only.
+
+🎯 Objectives
+
+Identify top revenue-generating companies
+
+Analyze key accounts using Pareto logic
+
+Track room productivity and operational KPIs
+
+Measure customer retention duration
+
+Support sales and revenue management decisions
+
+📊 Key KPIs
+
+Room Sales
+
+F&B Sales
+
+Total Sales
+
 Room Nights
-Total Revenue
 
+ADR (Average Daily Rate)
 
-🔍 Main Insights (2025 Results)
-1️⃣ IT & Technology Segment
-The highest-performing segment
-Achieved 150,000 SAR in total revenue
+RevPAR (Revenue per Available Room)
 
+Top 80% Key Accounts
 
-2️⃣ Company Retention
+Avg. Company Retention (Months)
 
-Number of companies that worked with the hotel throughout the full year: 3 companies
-Average months worked per company: 4 months
+Avg. New Companies per Month
 
+📈 Dashboard Pages
 
-3️⃣ New Companies Analysis
-Average new companies per month: 4 companies
+Total Companies Performance – overall revenue & room nights trends
 
+Key Accounts (Pareto Analysis) – dynamic Top 80% revenue contributors
 
+Market Segment Analysis – segment-based performance insights
 
-Documentation & visuals
+Companies Sustainability – retention and engagement analysis
 
-🚀 Purpose of the Project
+🧠 Data Model
 
-This project was designed to demonstrate practical data analytics capabilities in a realistic hospitality sales scenario, combining business understanding with analytical modeling to deliver actionable insights.
+Star schema design
+
+Fact tables: Room Revenue, F&B Revenue
+
+Dimension tables: Date, Company, Market Segment
+
+Clean relationships using Company_ID
+
+Optimized DAX measures for performance
+
+🛠 Tools & Technologies
+
+Power BI
+
+DAX
+
+Power Query
+
+🔍 Key Features
+
+Dynamic Pareto analysis with threshold slicer
+
+Conditional formatting for key accounts
+
+Accurate RevPAR calculation using room-night logic
+
+Separation of Room vs F&B analysis
+
+Portfolio-safe anonymized data
+
+⚠️ Disclaimer
+
+This dashboard is created for portfolio and demonstration purposes only.
+All data and company names are fictional.
+
+👤 Author
+
+[Amr youssef]
+Hospitality Analytics | Power BI
+
+لو حابب:
