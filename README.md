@@ -102,4 +102,4 @@ All data and company names are fictional.
 [Amr youssef]
 Hospitality Analytics | Power BI
 
-لو حابب:
+
