@@ -317,11 +317,11 @@ span {
 }
 
 .skills-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem;
-  justify-content: center;
-  align-items: stretch;
+    display: flex;
+    justify-content: center;  /* يخليهم في النص */
+    align-items: center;  /* يخليهم فوق شوية */
+    gap: 3rem;
+    flex-wrap: nowrap; /* يخليهم جمب بعض مش تحت بعض */
 }
 
 .skill-box {
