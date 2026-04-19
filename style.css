@@ -815,15 +815,3 @@ span {
     transform: scale(1.05);
   }
 }
-
-.tools-logos {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.tools-logos img {
-  height: 80px !important;
-  width: auto !important;
-  object-fit: contain;
-}
