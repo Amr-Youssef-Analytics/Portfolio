@@ -401,11 +401,11 @@ span {
 }
 
 .skill-box:nth-child(3) img {
-  max-width: 180px; /* 160 + 20 */
+  max-width: 160px; /* 160 + 20 */
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 120px; /* 100 + 20 */
+  max-width: 100px; /* 100 + 20 */
 }
 
 .skill-box:nth-child(3) img[alt="Databricks"] {
