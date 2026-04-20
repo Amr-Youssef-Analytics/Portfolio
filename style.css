@@ -369,7 +369,7 @@ span {
 
 /* ===== Default Logo Style ===== */
 .tools-logos img {
-  max-width: 70px;        /* الحجم الأساسي */
+  max-width: 80px;        /* الحجم الأساسي */
   height: auto;           
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
