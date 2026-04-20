@@ -405,7 +405,7 @@ span {
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 90px; /* صغر SQL أكتر */
+  max-width: 100px; /* صغر SQL أكتر */
 }
 
 .skill-box:nth-child(3) img[alt="Databricks"] {
