@@ -327,8 +327,8 @@ span {
 
 .skill-box {
   width: 30%; /* يخلي كل صندوق ياخد تلت الصفحة تقريبًا */
-  min-width: 300px;
-  height: 400px; /* أطول من العرض */
+  min-width: 200px;
+  height: 300px; /* أطول من العرض */
   background: #000000;
   border: 2px solid var(--main-color);
   border-radius: 2rem;
