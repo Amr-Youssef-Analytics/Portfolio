@@ -405,7 +405,7 @@ span {
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 120px;
+  max-width: 100px;
 }
 
 .projects{
