@@ -401,11 +401,11 @@ span {
 }
 
 .skill-box:nth-child(3) img {
-  max-width: 180px;
+  max-width: 400px;
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 90px;
+  max-width: 40px;
 }
 
 .projects{
