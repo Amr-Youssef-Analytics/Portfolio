@@ -308,15 +308,16 @@ span {
   width: 100%;              /* تملأ عرض السكشن */
 }
 
-/* ===== Skills Section ===== */
-
 .skills {
   background-color: var(--bg-color);
   padding: 10rem 10%;
+  color: var(--text-color);
+  position: relative;
   text-align: center;
+  display: block;
 }
 
-.skills-container {
+  .skills-container {
     display: flex;
     justify-content: center;  /* يخليهم في النص */
     align-items: center;  /* يخليهم فوق شوية */
@@ -325,18 +326,20 @@ span {
 }
 
 .skill-box {
-  width: 300px;
-  min-width: 280px;
-  height: 400px;
-  background: #000;
+  width: 30%; /* يخلي كل صندوق ياخد تلت الصفحة تقريبًا */
+  min-width: 300px;
+  height: 400px; /* أطول من العرض */
+  background: #000000;
   border: 2px solid var(--main-color);
   border-radius: 2rem;
   padding: 3rem 2rem;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 255, 85, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: 0.3s ease-in-out;
 }
 
 .skill-box:hover {
@@ -351,46 +354,51 @@ span {
 }
 
 .skill-box h4 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
 }
-
-/* ===== Logos ===== */
 
 .tools-logos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
 .tools-logos img {
-  height: 80px;
-  width: auto;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
 }
 
 .tools-logos img:hover {
-  transform: scale(1.15);
+  transform: scale(1.2);
+
 }
 
-/* ===== Responsive ===== */
-
-@media (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
-  }
-
-  .skill-box {
-    width: 90%;
-    height: auto;
-  }
-
-  .tools-logos img {
-    height: 50px;
-  }
+/* تخصيص للوجو SAS */
+.tools-logos img[alt="SAS"] {
+  transform: scale(1.50); /* أكبر شوية افتراضيًا */
 }
+
+/* عند المرور عليه كمان */
+.tools-logos img[alt="SAS"]:hover {
+  transform: scale(1.70); /* يكبر أكتر عند الوقوف */
+}
+
+.tools-logos img[alt="Machine Learning"] {
+  transform: scale(1.10);
+  margin: 0.5rem; /* أكبر شوية افتراضيًا */
+}
+
+.tools-logos img[alt="Machine Learning"]:hover {
+  transform: scale(1.50); /* يكبر أكتر عند الوقوف */
+}
+
+
 
 
 .projects{
