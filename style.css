@@ -401,7 +401,7 @@ span {
 }
 
 .skill-box:nth-child(3) img {
-  max-width: 120px; /* كبر كل اللوجوهات في البوكس */
+  max-width: 130px; /* كبر كل اللوجوهات في البوكس */
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
