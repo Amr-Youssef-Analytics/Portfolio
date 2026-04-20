@@ -402,11 +402,11 @@ span {
 
 /* ===== Third Skill Box (SQL + Databricks) ===== */
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 140px;
+  max-width: 120px;
 }
 
 .skill-box:nth-child(3) img[alt="Databricks"] {
-  max-width: 120px;
+  max-width: 130px;
 }
 
 .projects{
