@@ -367,7 +367,7 @@ span {
 }
 
 .tools-logos img {
-  max-width: 100px;   /* تتحكم في الحجم العام */
+  max-width: 70px;   /* تتحكم في الحجم العام */
   height: auto;       /* يحافظ على النسب */
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
