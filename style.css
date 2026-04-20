@@ -358,6 +358,7 @@ span {
   margin-bottom: 1rem;
 }
 
+/* ===== Tools Logos Container ===== */
 .tools-logos {
   display: flex;
   flex-wrap: wrap;
@@ -366,40 +367,47 @@ span {
   margin-top: 2rem;
 }
 
+/* ===== Default Logo Style ===== */
 .tools-logos img {
-  max-width: 70px;   /* تتحكم في الحجم العام */
-  height: auto;       /* يحافظ على النسب */
+  max-width: 70px;        /* الحجم الأساسي */
+  height: auto;           
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
 }
 
+/* ===== Hover Effect ===== */
 .tools-logos img:hover {
   transform: scale(1.2);
-
 }
 
-/* تخصيص للوجو SAS */
+/* ===== SAS Logo Custom Size ===== */
 .tools-logos img[alt="SAS"] {
-  transform: scale(1.50); /* أكبر شوية افتراضيًا */
+  transform: scale(1.5);
 }
 
-/* عند المرور عليه كمان */
 .tools-logos img[alt="SAS"]:hover {
-  transform: scale(1.70); /* يكبر أكتر عند الوقوف */
+  transform: scale(1.7);
 }
 
+/* ===== Machine Learning Logo ===== */
 .tools-logos img[alt="Machine Learning"] {
-  transform: scale(1.10);
-  margin: 0.5rem; /* أكبر شوية افتراضيًا */
+  transform: scale(1.1);
+  margin: 0.5rem;
 }
 
 .tools-logos img[alt="Machine Learning"]:hover {
-  transform: scale(1.50); /* يكبر أكتر عند الوقوف */
+  transform: scale(1.5);
 }
 
+/* ===== Third Skill Box (SQL + Databricks) ===== */
+.skill-box:nth-child(3) img[alt="SQL Server"] {
+  max-width: 140px;
+}
 
-
+.skill-box:nth-child(3) img[alt="Databricks"] {
+  max-width: 120px;
+}
 
 .projects{
   background-color: var(--second-bg-color);
