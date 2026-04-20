@@ -367,8 +367,8 @@ span {
 }
 
 .tools-logos img {
-  width: auto;
-  height: auto;
+  width: 70;
+  height: 70;
   object-fit: contain;
   transition: transform 0.3s ease, filter 0.3s ease;
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
