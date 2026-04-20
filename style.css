@@ -401,15 +401,15 @@ span {
 }
 
 .skill-box:nth-child(3) img {
-  max-width: 160px; /* كبر كل اللوجوهات في البوكس */
+  max-width: 120px; /* كبر كل اللوجوهات في البوكس */
 }
 
 .skill-box:nth-child(3) img[alt="SQL Server"] {
-  max-width: 100px; /* صغر SQL أكتر */
+  max-width: 90px; /* صغر SQL أكتر */
 }
 
 .skill-box:nth-child(3) img[alt="Databricks"] {
-  max-width: 180px; /* كبر Databricks أكتر */
+  max-width: 140px; /* كبر Databricks أكتر */
 }
 
 .projects{
